@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Model weights (downloaded separately, see README)
+models/
+*.pth
+*.onnx
+*.safetensors
+
+# Runtime data
+.cache/
+output/
+*.log
+
+# Videos and images are only tracked where needed
+*.mp4
+*.png
